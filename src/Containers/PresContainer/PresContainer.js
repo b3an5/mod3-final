@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { fetchAllPresidents } from "../../utils/allPresidentsCall";
 import { grabAllPresidents, loading, errored } from "../../actions/index";
 import PresCard from "../../Components/PresCard/PresCard";
+import "./PresContainer.css";
 
 class PresContainer extends Component {
   componentDidMount = async () => {
@@ -33,7 +34,7 @@ class PresContainer extends Component {
   };
 
   render() {
-    return <div>{this.presidentsToRender()}</div>;
+    return <div className="container">{this.presidentsToRender()}</div>;
   }
 }
 

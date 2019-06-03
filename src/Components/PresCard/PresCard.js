@@ -1,8 +1,9 @@
 import React from "react";
+import "./PresCard.css";
 
 export default function PresCard(props) {
   return (
-    <div>
+    <div className="card">
       <h2>{props.presidentInfo.number}</h2>
       <h3>{props.presidentInfo.president}</h3>
       <h3>
