@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>presidents and buttholes</h1>
+        <h1>🇺🇸presidents and buttholes🇺🇸</h1>
       </header>
       <PresContainer />
     </div>
